@@ -14,7 +14,7 @@ jobs:
         with:
           node-version: 16
       - name: install dependencies
-        run: npn install
+        run: npm install
       - name: Run test
         run: npm test
       - name: deploy to production
